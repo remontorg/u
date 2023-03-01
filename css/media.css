@@ -1,0 +1,282 @@
+@media screen and (max-width: 1024px) {
+  .wrapper__serv {
+    margin-left: 200px;
+  }
+
+  #logo {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  #callback {
+    padding: 1em 0.5em 1em 0.5em;
+  }
+
+  #callback input {
+    width: 45%;
+  }
+
+  #send-cb {
+    width: 45%;
+  }
+
+  #callback p {
+    width: 100%;
+    font: 170%/1 Dnc;
+    margin-bottom: 0.5em;
+  }
+
+  #benefits li {
+    display: block;
+    width: 25%;
+    text-align: center;
+  }
+
+  #benefits img {
+    width: 40%;
+  }
+
+  #benefits i {
+    font: 130%/1.2 Dnc;
+    width: 100%;
+    padding: 0.2em 0 0 0.7em;
+  }
+}
+
+@media screen and (max-width: 842px) {
+
+    #message {
+        line-height: 2;
+        font-size: 250%;
+        width: 100%;
+    }
+
+    #alltime {
+        margin-left: 3%;
+    }
+
+    .wrapper__serv {
+        margin-left: 30px;
+    }
+  #logo {
+    display: none;
+  }
+
+  .txt {
+    width: 50%;
+  }
+
+  #indicators {
+    font-size: 90%;
+  }
+
+  #indicators li:first-child {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px){
+    #alltime {
+        display: none;
+    }
+
+    #ab-h2 {
+        font-size: 160%;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .img {
+      justify-content: center;
+      display: flex;
+    }
+  
+    .img,
+    .p {
+      width: auto;
+      margin: 0 auto;
+    }
+  
+    .about__list {
+      display: block;
+    }
+  
+    #how-it-work ul {
+      display: block;
+    }
+  
+    #how-it-work li {
+      width: 100%;
+    }
+  
+    #how-it-work img {
+      width: auto;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    #message {
+        font-size: 170%;
+        line-height: 2.5;
+    }
+
+    h1 {
+        font-size: 270%;
+    }
+
+    a.phone {
+        font-size: 220%;
+    }
+
+    #free-master {
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width: 614px) {
+  .txt {
+    width: 100%;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #indicators {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+
+    #cont3 {
+        margin: 0em;
+    }
+
+    #indicators li {
+        padding: 1em 0 1em 3em;
+    }
+
+    #indicators ul {
+        display: block;
+    }
+
+    #indicators li:first-child {
+        width: 100%;
+    }
+
+    .p p{
+      margin: 0 auto;
+    }
+
+    #benefits li {
+        display: flex;
+    }
+
+    #benefits img {
+        width: auto;
+    }
+
+    #benefits li {
+        width: 100%;
+        text-align: left;
+        margin: 1em 0 0 0;
+    }
+
+    #benefits {
+        display: block;
+        padding-left: 1em;
+    }
+
+    #message {
+        line-height: 1.4;
+        font-size: 200%;
+        margin: .5em 0 .5em 0;
+        width: 100%;
+    }
+
+    .contact__list {
+        flex-wrap: wrap;
+    }
+
+    .wrapper__serv {
+        margin-left: inherit;
+    }
+
+    #wrap-serv {
+        height: auto;
+        width: 100%;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    #ab-h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0em;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 220%;
+        text-align: center;
+    }
+
+    #menu {
+        padding: 1em 3em 1em 3em;
+    }
+
+    #menu img {
+        width: 45px;
+        height: 45px;
+        margin: .5em .5em 0 0;
+    }
+
+    #menu li {
+        width: 100%;
+    }
+
+    #menu ul {
+        font: 130%/1 Dnc;
+        width: 100%;
+        display: block;
+    }
+
+    #menu li a {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        text-decoration: underline;
+    }
+
+    #send-cb {
+        float: inherit;
+        width: 100%;
+        margin-top: .7em;
+    }
+
+    #callback input {
+        width: 100%;
+    }
+
+    #callback p {
+        width: 100%;
+        font: 150%/1 Dnc;
+        text-align: center;
+    }
+
+    #free-master {
+        margin-top: 2.3em;
+        width: 100%;
+    }
+
+    a.phone {
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+    }
+}

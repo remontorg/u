@@ -1,0 +1,48 @@
+#message.error {
+    font: 400%/2  Dnc;
+    padding: 40px 0px;
+}
+
+.error2 {
+    margin-left: 5%;
+    font: 95%/1.5 Arial;
+    margin-bottom: 1.5em;
+}
+
+.error1 {
+    display: flex;
+}
+
+.error3 img{
+    margin: 2em 5em -1em 14em;    
+}
+
+#quest.error {
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 928px) {
+    .error1 {
+        display: block;
+    }
+
+    .error3 img {
+        margin: inherit;
+    }
+
+    .error3 {
+        justify-content: center;
+        display: flex;
+    }
+
+    .error2 {
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: inherit;
+    }
+
+    #message.error {
+        font: 250%/2  Dnc;
+    }
+}
